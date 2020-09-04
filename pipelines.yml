@@ -77,4 +77,4 @@ pipelines:
             - name: my_github            
         execution:
           onExecute:
-            - 'curl -H "Authorization: token ${int_my_github_token}" ${int_my_github_url}/rate_limit'
+            - 'curl -H "Authorization: token 6dc2336e5524466b0d24f38b1b509f71b7aafce8" https://github.com/blearner/rate_limit'
